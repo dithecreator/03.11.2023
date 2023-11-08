@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(95, 94, 94);
+    color: aliceblue;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    text-shadow:0 0 5px white;
+}
+
+.head{
+text-align: left;
+font-size: 25px;
+margin-left: 50px;
+text-shadow:0 0 5px white;
+}
+
+.pic{
+        box-shadow:0 0 5px white;
+        border: 7px solid white;
+        margin-left: 50px;
+      
+}
+.text{
+margin-left: 370px;
+margin-top: -250px;
+text-shadow:0 0 5px white;
+}
+
+.text1{
+    margin-left: 800px;
+    margin-top: -195px;
+    text-shadow:0 0 5px white;
+
+}
+
+ul{
+    display: flex;
+  margin-left: 900px;
+  margin-top: -40px;
+}
+
+li {
+    margin-right: 20px;
+    list-style-type: none;
+    text-shadow:0 0 5px white;
+  }
+
+  li a{
+    text-decoration: none;
+    color: white;
+  }
+  li a:hover{
+    color: antiquewhite;
+    text-shadow:0 0 5px antiquewhite;
+  }
+
+
+  #gallery{
+    display: flex;
+  }
+
+
+  .pics{
+    border: 2px white solid;
+    box-shadow:0 0 5px white;
+    border: 10px solid white;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+
+
+  .img{
+    box-shadow:0 0 5px white;
+    border: 10px solid white;
+    margin-right: 20px;
+  }
+  .cap{
+    position: absolute;
+    padding: 20px;
+    color: black;
+    background-color: white;
+    opacity: 0.6;
+    width: 400px;
+    height: 120px;
+    margin-top: -370px;
+    margin-left: 240px;
+  }
+
+  .cap1{
+    position: absolute;
+    padding: 20px;
+    color: black;
+    background-color: white;
+    opacity: 0.7;
+    width: 900px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 260px;
+  }
+  .pics1 {
+    border: 2px white solid;
+    box-shadow: 0 0 5px white;
+    border: 7px solid white;
+    margin-left: 20px;
+    margin-top: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pics1::before {
+    content: "\1F50D";
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+
+
+.pics1:hover {
+    opacity: 0.5;
+}
+
+
+.last{
+    text-align: center;
+    font-size: 10px;
+    text-shadow:0 0 5px white;
+}
+
+.main{
+    display: flex;
+}
+
+.picc{
+    margin-left: 20px;
+    margin-top: 10px;
+}
